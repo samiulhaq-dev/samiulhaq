@@ -13,7 +13,7 @@ const Projects = () => {
 
   return (
     <div className="projects py-10">
-      <div className="projects-header flex items-center justify-between">
+      <div className="title-header flex items-center justify-between">
         <div className="left flex items-center flex-1 gap-5">
           <h2 className="text-white font-medium text-[32px]">
             <span className="text-pinkish">#</span>project
