@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../assets/logo.png";
+import TopLogo from "../assets/logo.png";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="left">
           <div className="img">
             <Link to="/" className="text-white font-bold">
-              <img src={Logo} alt="logo" className="inline-block" /> SAMI
+              <img src={TopLogo} alt="logo" className="inline-block" /> SAMI
             </Link>
           </div>
         </div>
