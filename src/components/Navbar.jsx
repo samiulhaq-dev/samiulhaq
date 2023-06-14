@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -9,7 +10,7 @@ const Navbar = () => {
         <div className="left">
           <div className="img">
             <a href="#" className="text-white font-bold">
-              Sami
+             <img src={Logo} alt="logo" className="inline-block"/> SAMI
             </a>
           </div>
         </div>

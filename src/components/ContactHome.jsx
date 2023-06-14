@@ -1,7 +1,7 @@
 
 const ContactHome = () => {
   return (
-    <div className="contact-home py-10">
+    <div className="contact-home py-20">
       <div className="title-header flex items-center justify-between">
         <div className="left flex items-center flex-1 gap-5">
           <h2 className="text-white font-medium text-[32px]">
@@ -15,7 +15,7 @@ const ContactHome = () => {
           <p className="text-greyish">I'm interested in freelance apportunities.<br/><br/> However if you have any other request, don't hesitate to contact me</p>
         </div>
         <div className="right flex-1 sm:text-right">
-          <div className="mxg-box inline-block border border-greyish p-4">
+          <div className="mxg-box inline-block border border-greyish p-4 hover:bg-[#C778DD33]">
               <h3 className="text-white font-semibold mb-5">Message me here</h3>
               <a href="tel:923133005014" className="text-greyish block">+ 92 313 300 5014</a>
               <a href="mailto:samiulhaq.dev@gmail.com" className="text-greyish block">samiulhaq.dev@gmail.com</a>

@@ -46,7 +46,7 @@ const Skills = () => {
           {skillsData?.map((skill, i) => (
             <div
               key={i}
-              className="border border-greyish w-[45%] lg:w-[30%] h-min"
+              className="border border-greyish w-[45%] lg:w-[30%] h-min hover:bg-[#C778DD33]"
             >
               <h3 className="p-2 font-semibold text-white">{skill.title}</h3>
               <div className="p-2 skills-items border-t border-greyish flex flex-wrap gap-2">
