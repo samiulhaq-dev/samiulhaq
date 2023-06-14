@@ -1,4 +1,4 @@
-import Logo from "../assets/logo.png";
+import Logo from "../assets/Logo.png";
 import Facebook from "../assets/Figma.png";
 import Github from "../assets/Github.png";
 
