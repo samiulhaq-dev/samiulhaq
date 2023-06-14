@@ -1,6 +1,6 @@
 import React, { useState } from "react";
+import TopLogo from "../assets/Logo.png";
 import { Link } from "react-router-dom";
-import TopLogo from "../assets/logo.png";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
