@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import Logo from "../assets/logo.png";
 
 const Navbar = () => {
@@ -9,9 +10,9 @@ const Navbar = () => {
       <div className="max-container flex justify-between items-center py-4">
         <div className="left">
           <div className="img">
-            <a href="#" className="text-white font-bold">
-             <img src={Logo} alt="logo" className="inline-block"/> SAMI
-            </a>
+            <Link to="/" className="text-white font-bold">
+              <img src={Logo} alt="logo" className="inline-block" /> SAMI
+            </Link>
           </div>
         </div>
         <div className="right flex items-center">
@@ -21,9 +22,9 @@ const Navbar = () => {
             } bg-blackish md:flex-row md:static`}
           >
             <li className="text-[#ABB2BF] list-none text-[32px] md:text-base py-4 mx-4">
-              <a href="#">
+              <Link to="/">
                 <span className="text-[#C778DD] font-medium">#</span>home
-              </a>
+              </Link>
             </li>
             <li className="text-[#ABB2BF] list-none text-[32px] md:text-base py-4 mx-4">
               <a href="#">
@@ -36,9 +37,9 @@ const Navbar = () => {
               </a>
             </li>
             <li className="text-[#ABB2BF] list-none text-[32px] md:text-base py-4 mx-4">
-              <a href="#">
-                <span className="text-[#C778DD] font-medium">#</span>contacts
-              </a>
+              <Link to="/contact">
+                <span className="text-[#C778DD] font-medium">#</span>contact
+              </Link>
             </li>
 
             <div

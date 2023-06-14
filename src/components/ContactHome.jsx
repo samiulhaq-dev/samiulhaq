@@ -1,7 +1,7 @@
 
 const ContactHome = () => {
   return (
-    <div className="contact-home py-20">
+    <div className="contact-home pt-10 md:pt-20 pb-20">
       <div className="title-header flex items-center justify-between">
         <div className="left flex items-center flex-1 gap-5">
           <h2 className="text-white font-medium text-[32px]">

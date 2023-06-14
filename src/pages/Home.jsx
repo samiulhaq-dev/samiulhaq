@@ -3,15 +3,13 @@ import { AboutHome, ContactHome, HeroSection, Navbar, Projects, QuoteImg, Skills
 
 const Home = () => {
   return (
-    <div className="max-w-[1200px] m-auto px-5">
-        <Navbar />
+    <div className="">
         <HeroSection />
         <QuoteImg />
         <Projects />
         <Skills />
         <AboutHome />
         <ContactHome />
-        <Footer />
     </div>
   )
 }

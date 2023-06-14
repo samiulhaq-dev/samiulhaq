@@ -4,7 +4,7 @@ import Github from "../assets/Github.png";
 
 const Footer = () => {
   return (
-    <div className="footer py-8 border-t border-greyish pt-10">
+    <div className="footer py-8 border-t border-greyish pt-14 max-w-[1200px] m-auto px-5">
       <div className="footer-content flex justify-between flex-col gap-10 sm:flex-row">
         <div className="left">
           <img src={Logo} alt="logo" className="inline-block mr-2" />
