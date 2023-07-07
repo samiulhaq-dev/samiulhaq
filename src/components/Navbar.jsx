@@ -1,12 +1,20 @@
 import React, { useState } from "react";
 import TopLogo from "../assets/Logo.png";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+  // const [show, setShow] = useState(false);
 
   return (
-    <div className="fixed top-0 left-0 right-0 bg-blackish">
+    <motion.div className="fixed top-0 left-0 right-0 bg-blackish"
+    initial={{ opacity: 0 }} 
+    animate={{ opacity: 1 }} transition={{
+      duration: 0.2
+  }}
+    
+    >
       <div className="max-container flex justify-between items-center py-4">
         <div className="left">
           <div className="img">
@@ -52,7 +60,7 @@ const Navbar = () => {
           </ul>
           <div className="mobile-icon">
             <div
-              onClick={() => setToggle(true)}
+              onClick={() => setToggle((prev) => !prev)}
               className="open group block md:hidden w-10 cursor-pointer p-1"
             >
               <span className="w-full h-[1px] block my-2 bg-white group-hover:bg-pinkish"></span>
@@ -62,7 +70,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
