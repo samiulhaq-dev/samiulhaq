@@ -119,8 +119,8 @@ const Contact = () => {
         <div className="right flex-1 sm:text-right">
           <div className="mxg-box inline-block border border-greyish p-4 mt-7 hover:bg-[#C778DD33]">
             <h3 className="text-white font-semibold mb-5">Message me here</h3>
-            <a href="tel:923133005014" className="text-greyish block">
-              + 92 313 300 5014
+            <a href="tel:923132005014" className="text-greyish block">
+              + 92 313 200 5014
             </a>
             <a
               href="mailto:samiulhaq.dev@gmail.com"
